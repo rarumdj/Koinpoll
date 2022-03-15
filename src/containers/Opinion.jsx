@@ -2,7 +2,7 @@ import React from "react";
 
 const Opinion = () => {
   return (
-    <section className="py-16 px-6 lg:px-24">
+    <section className="py-16 px-6 lg:px-28">
       <div className="flex md:flex-row flex-col lg:gap-64 gap-8">
         <div className="flex flex-col space-y-6 ">
           <h1 className="text-white md:text-4xl text-3xl font-extrabold">

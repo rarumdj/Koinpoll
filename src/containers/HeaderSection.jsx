@@ -30,7 +30,7 @@ const HeaderSection = () => {
       <Opinion />
       <div
         style={leftb}
-        className="absolute md:block hidden bottom-0 2xl:-left-2/3 -left-1/3 -z-50"
+        className="absolute md:block hidden bottom-0 2xl:left-0 -z-50"
       />
       <div
         style={rightb}
