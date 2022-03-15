@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Basier Circle Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Basier Circle Regular'), url('fonts/BasierCircle-Regular.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Basier Square Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Basier Square Regular'), url('fonts/BasierSquare-Regular.woff') format('woff');
+  }
+
+:root {
+  --font-family: "Basier Circle Regular", sans-serif;
 }
