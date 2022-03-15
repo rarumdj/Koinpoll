@@ -3,7 +3,7 @@ import { hero } from "../assests";
 
 const Header = () => {
   return (
-    <section className="pt-8">
+    <section className="pt-24">
       <div className="flex flex-col md:flex-row lg:pl-24 ">
         <div className="flex-1 flex-col space-y-6 md:mt-20 mt-0 lg:mr-8 px-6">
           <h1 className="text-white font-black lg:text-6xl md:text-5xl sm:text-4xl text-3xl">
