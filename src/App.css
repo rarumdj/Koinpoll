@@ -7,9 +7,9 @@
 }
 
 body {
-  background: url(assests/landing-bg.png);
-  background-repeat: no-repeat;
-  height: 1000rem;
+  background-color: #0e1623;
+  background-image: url(assests/nexted.png);
+  background-size: cover;
 }
 
 a {
