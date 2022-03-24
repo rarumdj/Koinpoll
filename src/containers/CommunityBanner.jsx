@@ -19,7 +19,7 @@ const CommunityBanner = () => {
               Join our community{" "}
             </h1>
             <div className="w-36">
-              <ul className="grid grid-cols-3 gap-2 space-x-0">
+              <ul className="grid md:grid-cols-3 md:gap-2 md:grid-flow-row grid-flow-col gap-1  space-x-0">
                 <li className="flex w-10 h-10 rounded-full bg-black bg-opacity-30">
                   <a href="/" className="m-auto">
                     <Icon
@@ -50,11 +50,7 @@ const CommunityBanner = () => {
                 </li>
                 <li className="flex w-10 h-10 rounded-full bg-black bg-opacity-30">
                   <a href="/" className="m-auto">
-                    <Icon
-                      icon="bi:github"
-                      fontSize={20}
-                      color="fff"
-                    />
+                    <Icon icon="bi:github" fontSize={20} color="fff" />
                   </a>
                 </li>
               </ul>

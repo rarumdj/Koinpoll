@@ -1,5 +1,5 @@
-export { default as logo } from "./logo.png";
-export { default as logoicon } from "./logoicon.png";
+export { default as logo } from "./logo.svg";
+export { default as logoicon } from "./logoicon.svg";
 export { default as hero } from "./hero.png";
 export { default as leftelip } from "./t-l-ellipse.png";
 export { default as rightelip } from "./t-r-ellipse.png";

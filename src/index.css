@@ -3,20 +3,26 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Basier Circle Regular';
+  font-family: "Basier Circle";
+  src: local("Basier Circle Circle Regular"),
+    local("Basier-Circle-Circle-Regular"),
+    url("fonts/BasierCircle-Regular.woff2") format("woff2"),
+    url("fonts/BasierCircle-Regular.woff") format("woff"),
+    url("fonts/BasierCircle-Regular.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
-  font-weight: normal;
-  src: local('Basier Circle Regular'), url('fonts/BasierCircle-Regular.woff') format('woff');
-  }
-  
+}
 
-  @font-face {
-  font-family: 'Basier Square Regular';
+@font-face {
+  font-family: "Basier Circle";
+  src: local("Basier Circle Circle Bold"), local("Basier-Circle-Circle-Bold"),
+    url("fonts/BasierCircle-Bold.woff2") format("woff2"),
+    url("fonts/BasierCircle-Bold.woff") format("woff"),
+    url("fonts/BasierCircle-Bold.ttf") format("truetype");
+  font-weight: 700;
   font-style: normal;
-  font-weight: normal;
-  src: local('Basier Square Regular'), url('fonts/BasierSquare-Regular.woff') format('woff');
-  }
+}
 
 :root {
-  --font-family: "Basier Circle Regular", sans-serif;
+  --font-family: "Basier Circle", sans-serif;
 }
